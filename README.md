@@ -2,6 +2,36 @@
 
 _Or monorepo in monorepo._
 
+Requirements:
+
+- Node.js
+- Yarn Workspaces
+
+## Try it!
+
+1. Install all deps:
+
+```
+yarn install
+```
+
+2. Go to the `examples/monorepo/app` and start dev:
+
+```
+cd examples/monorepo/app
+yarn dev
+```
+
+3.  Change something visible in the `examples/monorepo/modules/module-a`.
+
+    - It should update the app during development.
+
+4.  Then try to change something in the `packages/package-a`.
+
+    - It should update the app during development.
+
+## Description
+
 Basically it's just spreading of the inner monorepos workspaces into workspaces of the outer monorepo.
 
 That means that root package.json contains array of workspaces for all workspaces.
