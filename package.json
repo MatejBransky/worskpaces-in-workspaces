@@ -1,0 +1,12 @@
+{
+  "name": "workspaces-in-workspaces",
+  "workspaces": [
+    "packages/*",
+    "examples/*",
+    "examples/monorepo/app",
+    "examples/monorepo/modules/*"
+  ],
+  "version": "1.0.0",
+  "license": "MIT",
+  "private": true
+}
