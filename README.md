@@ -1,4 +1,4 @@
-# PoC - Workspaces in workspaces (WIP)
+# PoC - Workspaces in workspaces
 
 _Or monorepo in monorepo._
 
