@@ -2,6 +2,10 @@
 
 _Or monorepo in monorepo._
 
+Video (YouTube) example:
+
+[![example](https://img.youtube.com/vi/-qj5bRrTous/0.jpg)](https://youtu.be/-qj5bRrTous)
+
 Requirements:
 
 - Node.js
